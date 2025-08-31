@@ -3,7 +3,7 @@ This is going kinda hard challenge but I like challenges
 
 ## Screenshot
 
-![](./preview.jpg)
+![](./preview.png)
 
 ## Built with
 
