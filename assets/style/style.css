@@ -1,0 +1,283 @@
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Stone-100: hsl(30, 54%, 90%);
+    --color-Stone-150: hsl(30, 18%, 87%);
+    --color-Stone-600: hsl(30, 10%, 34%);
+    --color-Stone-800: hsl(30, 3%, 60%);
+    --color-Stone-900: hsl(24, 5%, 18%);
+
+    --color-Brown-800: hsl(14, 45%, 36%);
+
+    --color-Rose-800: hsl(332, 51%, 32%);
+    --color-rose-50: hsl(330, 100%, 98%);
+}
+
+hr{
+    color: var(--color-Stone-100);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Outfit';
+    font-weight: 200;
+    background-color: var(--color-Stone-100);
+
+
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+
+}
+
+
+
+.card {
+    margin: 7rem 0;
+    background-color: var(--color-White);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 24px;
+    gap: 1.5rem;
+    box-shadow: 0px 0px 20px 1px rgba(145, 145, 145, 0.098);
+ 
+
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-section__img {
+    border-radius: 20px;
+
+
+}
+
+.hero-section__title {
+    color: var(--color-Stone-900);
+    font-family: 'YoungSerif';
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.description {
+    color: var(--color-Stone-600);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.Preparation-section {
+    width: 100%;
+    background-color: var(--color-rose-50);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.Preparation-section__title {
+    color: var(--color-Rose-800);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Preparation-section_list {
+    font-size: 1rem;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Preparation-section_list>li {
+    margin: .25rem 1.5rem;
+    padding: 0 1.5rem;
+    font-size: .75rem;
+}
+
+.Preparation-section_list>li>span {
+    font-size: 1rem;
+    color: var(--color-Stone-600);
+}
+
+.Preparation-section_list>li>span>b {
+    font-weight: 600;
+}
+
+.Ingredients-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Ingredients-section__title {
+    color: var(--color-Brown-800);
+    font-size: 1.75rem;
+    font-family: 'YoungSerif';
+      font-weight: 400;
+}
+
+.Ingredients-section>ul {
+    color: var(--color-Stone-600);
+    margin: 0;
+    padding: 0;
+}
+
+.Ingredients-section>ul>li {
+    font-size: .75rem;
+    margin: .5rem 1.2rem;
+
+}
+
+.Ingredients-section>ul>li>span {
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+
+.instructions-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.instructions-section__title{
+    color: var(--color-Brown-800);
+    font-size: 1.75rem;
+    font-family: 'YoungSerif';
+      font-weight: 400;
+}
+
+.instructions-section > ol {
+    margin: 0rem 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.instructions-section > ol > li{
+    padding-right: 7%;
+    color: var(--color-Brown-800);
+    font-weight: 700;
+    
+}
+
+.instructions-section > ol > li >span{
+    color: var(--color-Stone-600);
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+
+.nutrition-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nutrition-section__title{
+    color: var(--color-Brown-800);
+    font-size: 1.75rem;
+    font-family: 'YoungSerif';
+    font-weight: 400;
+}
+
+.nutrition-section__info{
+    color: var(--color-Stone-600);
+}
+
+.item_holder{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item-box{
+    display: flex;
+    
+}
+.item {
+    flex: 0 0 50%;
+    color: var(--color-Brown-800);
+    font-weight: 700;
+  
+}
+
+.item1 {
+    color: var(--color-Stone-800);
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .card{
+        margin: 0;
+        border-radius: 0px;
+       
+        box-sizing: border-box;
+    }
+
+    .hero-section__img{
+        border-radius: 0px;
+        
+    }
+
+    .hero-section__title{
+     
+    }
+    
+    .Preparation-section{
+      
+       
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width:375px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 800px;
+    }
+}
